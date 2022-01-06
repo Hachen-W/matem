@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="en" class="html" data-theme="light"><head>
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+  <title>
+    
+      математикъ
+    
+  </title>
+
+  <link type="application/atom+xml" rel="alternate" href="http://localhost:4000/feed.xml" title="математикъ" />
+
+  <link rel="shortcut icon" type="image/x-icon" href="//logo.png" />
+  <link rel="stylesheet" href="/assets/css/main.css" />
+  
+    <script type="text/javascript">
+  window.addEventListener('load', themeChange);
+  const currentTheme = localStorage.getItem('theme') ? localStorage.getItem('theme') : null;
+  if (currentTheme)
+    document.documentElement.setAttribute('data-theme', currentTheme);
+
+  function themeChange() {
+    let button = document.querySelector('.theme-toggle');
+
+    button.addEventListener('click', function (e) {
+      let currentTheme = document.documentElement.getAttribute('data-theme');
+      if (currentTheme === 'dark') {
+        transition();
+        document.documentElement.setAttribute('data-theme', 'light');
+        localStorage.setItem('theme', 'light');
+      } else {
+        transition();
+        document.documentElement.setAttribute('data-theme', 'dark');
+        localStorage.setItem('theme', 'dark');
+      }
+    });
+
+    let transition = () => {
+      document.documentElement.classList.add('transition');
+      window.setTimeout(() => {
+        document.documentElement.classList.remove('transition');
+      }, 1000);
+    }
+  }
+</script>
+
+
+  
+</head>
+<body>
+    <main class="page-content" aria-label="Content">
+      <div class="w">
+        <header>
+
+
+  <h1>математикъ</h1>
+  
+    <p></p>
+  
+</header>
+
+
+
+
+
+  <ul class="horizontal-list">
+  
+
+    <li class="card">
+      <a href="sliv">
+        <span class="header">
+          Сливы
+
+          
+
+        </span>
+
+
+        
+        <!--<p class="body">
+          
+        </p>-->
+        
+      </a>
+    </li>
+
+  
+
+    <li class="card">
+      <a href="ege">
+        <span class="header">
+          ЕГЭ 2022
+
+          
+
+        </span>
+
+
+        
+        <!--<p class="body">
+          
+        </p>-->
+        
+      </a>
+    </li>
+
+  
+
+    <li class="card">
+      <a href="trigonometry">
+        <span class="header">
+          Тригонометрия
+
+          
+
+        </span>
+
+
+        
+        <!--<p class="body">
+          
+        </p>-->
+        
+      </a>
+    </li>
+
+  
+
+    <li class="card">
+      <a href="mater">
+        <span class="header">
+          Материалы
+
+          
+
+        </span>
+
+
+        
+        <!--<p class="body">
+          
+        </p>-->
+        
+      </a>
+    </li>
+
+  
+</ul>
+
+
+
+
+
+
+<!--
+  <h2></h2>
+  
+  <ul>
+    
+      <li class="post-list-item">
+        <a href="/trigonometry.html">Тригонометрия и с чем её едят</a>
+      </li>
+    
+      <li class="post-list-item">
+        <a href="/sliv.html">сливы</a>
+      </li>
+    
+      <li class="post-list-item">
+        <a href="/mater.html">материалы</a>
+      </li>
+    
+      <li class="post-list-item">
+        <a href="/ege.html">новвоведения в ЕГЭ</a>
+      </li>
+    
+  </ul>
+
+
+
+
+
+
+-->
+        
+      </div>
+    </main><script async defer src="https://sdk.soopr.co/soopr.js"></script></body>
+</html>
